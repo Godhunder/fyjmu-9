@@ -1,0 +1,15 @@
+{
+  "name": "afk-mineflayer-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": "20.x"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mineflayer": "^4.16.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
