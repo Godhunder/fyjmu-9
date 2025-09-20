@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: afk-mineflayer-bot
+    env: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    envVars:
+      - key: MC_HOST
+        value: flash.ateex.cloud
+      - key: MC_PORT
+        value: "6135"
+      - key: MC_USER
+        value: AFKBot
