@@ -1,0 +1,24 @@
+{
+  "serverAddress": "flash.ateex.cloud",
+  "serverPort": 6135,
+  "serverUrl": "http://flash.ateex.cloud:6135",
+  "username": "AntiAFKBot",
+  "password": "",
+  "version": "1.21.8",
+  "http": {
+    "enabled": true,
+    "port": 3000,
+    "statusPath": "/status"
+  },
+  "antiAfk": {
+    "minIntervalSeconds": 20,
+    "maxIntervalSeconds": 60,
+    "moveDistance": 0.6,
+    "rotate": true,
+    "swingArm": true,
+    "jump": true,
+    "chatPing": false,
+    "chatMessages": ["hi", "hello", "nice day"],
+    "randomizeActions": true
+  }
+}
