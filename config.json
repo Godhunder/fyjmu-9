@@ -4,7 +4,6 @@
   "serverUrl": "http://flash.ateex.cloud:6135",
   "username": "AntiAFKBot",
   "password": "",
-  "version": "1.21.8",
   "http": {
     "enabled": true,
     "port": 3000,
