@@ -41,7 +41,7 @@ function startBot() {
   });
 
   bot.on('end', () => {
-    console.log('[bot] Disconnected, retrying in 5s...');
+    console.log('[bot] Disconnected, retrying in 60s...');
     setTimeout(startBot, 5000);
   });
 
